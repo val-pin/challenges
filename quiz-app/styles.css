@@ -1,0 +1,47 @@
+header {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+}
+
+#main-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffff;
+  height: 600px;
+  width: 40%;
+  flex-direction: column;
+}
+
+.question1 {
+  background-color: blueviolet;
+  width: auto;
+}
+.question2 {
+  background-color: blueviolet;
+  width: auto;
+}
+
+.button1 {
+  font-size: 14px;
+  width: 100px;
+  height: 70px;
+}
+.button2 {
+  font-size: 14px;
+  width: 100px;
+  height: 70px;
+}
+
+.bookmark {
+  float: right;
+  width: 0;
+  height: 100px;
+  border-right: 50px solid black;
+  border-left: 50px black;
+  border-bottom: 30px solid black;
+}
+
+.images {
+  display: inline-block;
+}

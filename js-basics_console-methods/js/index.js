@@ -5,13 +5,16 @@ console.clear();
 // All console methods can be found on mdn for reference: https://developer.mozilla.org/en-US/docs/Web/API/console
 
 // 1. Store the sentence 'Happy coding!' in a variable named 'coding'.
+const coding = "Happy coding!";
 
 // 2. Display the variable 'coding' as a message in the console.
+console.log(coding);
 
 // 3. Store the sentence 'Happy hacking!' in the variable named 'hacking'.
+const hacking = "Happy coding!";
 
 // 4. Display the variable 'hacking' as a message in the console.
-
+console.log(hacking);
 // 5. Which method is used to clear the console? Use it to tidy up the console.
 
 // 6. Store the text 'This is an error!' in the variable 'error'.

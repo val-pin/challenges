@@ -14,20 +14,21 @@ header {
 }
 
 .question1 {
+  display: inline-block;
   background-color: blueviolet;
   width: auto;
+  height: 100px;
+  margin: 20px;
 }
 .question2 {
   background-color: blueviolet;
   width: auto;
+  height: 100px;
+  margin: 20px;
 }
 
-.button1 {
-  font-size: 14px;
-  width: 100px;
-  height: 70px;
-}
-.button2 {
+.button {
+  position: center;
   font-size: 14px;
   width: 100px;
   height: 70px;
@@ -36,7 +37,7 @@ header {
 .bookmark {
   float: right;
   width: 0;
-  height: 100px;
+  height: 20px;
   border-right: 50px solid black;
   border-left: 50px black;
   border-bottom: 30px solid black;
@@ -44,4 +45,9 @@ header {
 
 .images {
   display: inline-block;
+}
+.navbar {
+  align-items: end;
+  width: auto;
+  height: 20px;
 }

@@ -56,6 +56,12 @@ question_card p {
   margin-top: 20px;
   margin-left: 30%;
 }
+.profile_card{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
 .button {
   background-color: #008cba; /* Green */
   border: none;
@@ -127,4 +133,15 @@ li a:hover {
 .nav {
   display: flex;
   justify-content: space-evenly;
+}
+.box {
+  width: 600px;
+  height: 600px;
+}
+
+
+section.about_head {
+display: flex;
+justify-content:space-between;
+align-items: center;
 }

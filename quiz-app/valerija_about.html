@@ -4,18 +4,23 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="styles.css" />
     <title>My Quizz App</title>
   </head>
   <body>
     <header>
-      <h1 class="ABOUT">Quiz App</h1>
+        <h1 style="font-size: 30px; display: flex; justify-content: center">
+            Quiz App
+          </h1>
     </header>
     <button class="dark" onclick="toggleDarkMode()">Dark Mode</button>
     <main>
       <section class="about_head">
-        <img src="blank-profile-picture.jpeg" alt="default profile picture" />
-        <h2>Max Doe</h2>
+        <img class="profile_card-img" src="http://source.unsplash.com/random/300x300?portrait">
+
+<div class="profile_card"></div>
+
+        <h2 class="profile_card-img"> Maxi Doe</h2>
       </section>
       <section class="about_me">
         <h3>About me:</h3>
@@ -25,12 +30,40 @@
       </section>
     </main>
     <footer>
-        <ul>
-            <li><a href="index.html">HOME</a></li>
-            <li><a href="valerija_bookmarks.html">BOOKMARKS</a></li>
-            <li><a href="valerija_add.html">ADD A CARD</a></li>
-            <li><a href="valerija_about.html">ABOUT</a></li>
-          </ul>
+        <ul class="nav">
+            <li>
+              <a href="index.html">
+                <img
+                  src="schloss-mit-drei-turmen.png"
+                  alt="castle with three towers as a home symbol"
+                  style="height: 50px"
+                />
+              </a>
+            </li>
+    
+            <li>
+              <a href="valerija_bookmarks.html">
+                <img
+                  src="lesezeichen.png"
+                  alt="ribbon with a heart as a bookmark symbol"
+                  style="height: 50px"
+                />
+              </a>
+            </li>
+            <li>
+              <a href="valerija_form.html"
+                ><img
+                  src="add.png"
+                  alt="plus symbol for adding a card"
+                  style="height: 50px"
+                />
+              </a>
+            </li>
+            <li>
+              <a href="valerija_about.html">
+                <img src="nutzer.png" alt="avatar symbol" style="height: 50px" />
+              </a>
+            </li>
     </footer>
    
   </body>
